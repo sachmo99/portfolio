@@ -3,7 +3,7 @@ import React from 'react';
 import mypic from './mypic.jpg'
 import './App.css';
 import SkillSet from './components/skillset.jsx';
-import {BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import {HashRouter as Router, Switch, Route } from 'react-router-dom';
 import beach from './beach.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Navbar, Nav, Carousel, CarouselItem, CarouselProps, Container, Jumbotron, Row, Col } from 'react-bootstrap';
@@ -13,12 +13,12 @@ import Projects from './components/projects.jsx';
 const routes = (
     <Router>
         <Switch>
-          <Route exact path = '/' component={home}/>
-          <Route path='/about' > <Abt /> </Route>
-          <Route path='/almamater' component={About} />
-          <Route path='/skillset' component={SkillSet} />
-          <Route path='/contactme' component={ContactMe} />
-          <Route path='/projects' component={Projects} />
+          <Route exact path = "/" component={home}/>
+          <Route exact path="/about" > <Abt /> </Route>
+          <Route exact path='/almamater' component={About} />
+          <Route exact path='/skillset' component={SkillSet} />
+          <Route exact path='/contactme' component={ContactMe} />
+          <Route exact path='/projects' component={Projects} />
         </Switch>
 
       </Router>
@@ -46,11 +46,11 @@ class App extends React.Component {
         <Navbar.Collapse id = "responsive-navbar-nav">
           <Nav className="mr-auto" >
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/about">About Me</Nav.Link>
-            <Nav.Link href="/almamater">AlmaMater</Nav.Link>
-            <Nav.Link href="/skillset">Skill Set</Nav.Link>
-            <Nav.Link href="/projects">Projects, Awards and Contributions</Nav.Link>
-            <Nav.Link href="/contactme">Get In Touch</Nav.Link>
+            <Nav.Link href="/#/about">About Me</Nav.Link>
+            <Nav.Link href="/#/almamater">AlmaMater</Nav.Link>
+            <Nav.Link href="/#/skillset">Skill Set</Nav.Link>
+            <Nav.Link href="/#/projects">Projects, Awards and Contributions</Nav.Link>
+            <Nav.Link href="/#/contactme">Get In Touch</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Navbar>
