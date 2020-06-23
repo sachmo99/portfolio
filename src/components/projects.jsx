@@ -14,7 +14,9 @@ export default class Projects extends React.Component {
             <div style={{backgroundImage:`url(${success})`, backgroundSize:'cover'}}>
                 <Container fluid={true} style={{width:'60%'}}>
                   <Row>
+                    <Col>
                     <h2 style={{textAlign:'center'}}>Digital Badges</h2>
+                    </Col>
                     </Row>
                     <Row>
                       <Col>
