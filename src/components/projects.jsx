@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container , Jumbotron, Row, Col, Table, ProgressBar, Card, CardGroup, ListGroup } from 'react-bootstrap';
 import success from '../success.jpg';
+import ccna from '../ccna.png';
 export default class Projects extends React.Component {
     constructor(props) {
         super(props);
@@ -12,11 +13,18 @@ export default class Projects extends React.Component {
         return(
             <div style={{backgroundImage:`url(${success})`, backgroundSize:'cover'}}>
                 <Container fluid={true} style={{width:'60%'}}>
-                    <h2>Digital Badges</h2>
+                  <Row>
+                    <h2 style={{textAlign:'center'}}>Digital Badges</h2>
+                    </Row>
+                    <Row>
+                      <Col>
                     <iframe src="https://api.badgr.io/public/assertions/FwKLvMiuQsS_4jxMg2aScg?embedVersion=1&amp;embedWidth=330&amp;embedHeight=186" title="Badge: Cisco Cybersecurity Essentials" style={{width: '330px', height: '186px',border:'0px',alignContent:'center' }}></iframe>
-                    <iframe src="https://www.youracclaim.com/badges/bd2422a7-20ed-489f-8f8b-d284c012a343/public_url" title="Badge: Earners of Cisco CCNA - Implementing and Administering Cisco Solutions (CCNA) " style={{width: '330px', height: '186px',border:'0px',alignContent:'left' }}></iframe>
-                    
-                </Container>
+                    </Col>
+                    <Col>
+                    <img src={ccna} alt="https://www.youracclaim.com/badges/bd2422a7-20ed-489f-8f8b-d284c012a343/public_url" style={{width:'65%'}}></img>
+                    </Col>
+                    </Row>
+      </Container>
                 <Container fluid={true} style={{width:'100%'}}>
                     <h2 style={{textAlign:'center'}}>Projects</h2>
                     <CardGroup>
