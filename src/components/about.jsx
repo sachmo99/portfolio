@@ -10,11 +10,11 @@ import strita from '../strita.jpg';
 export default class About extends React.Component {
     render() {
         return(
-            <div style={{backgroundImage:`url(${bck})`, backgroundSize:'cover', color:'white'}}>
+            <div style={{backgroundImage:`url(${bck})`, backgroundSize:'cover', color:'#090057'}}>
                 <Jumbotron style={{backgroundColor:'transparent', paddingBottom:'20%', height:'450px', width:'100%'}}>
                     <h1>Alma Mater</h1>
                     <div>
-                    <Container fluid={true} style={{maxWidth:'50%', float:'left', height:'250px'}} >
+                    <Container fluid={true} style={{maxWidth:'50%', float:'left', height:'250px', fontWeight:'bold'}} >
                     <Row>
                         <Col lg={3} >College Name</Col>
                         <Col lg={6} >Amrita Vishwa Vidhyapeetam</Col>
@@ -29,16 +29,16 @@ export default class About extends React.Component {
                      </Row>
 
                     </Container>
-                    <Container style={{maxWidth:'50%',float:'right'}}>
+                    <Container style={{maxWidth:'50%',float:'right', fontWeight:'bold'}}>
                         <img src={amrita} alt="nothing" style={{overflow:'hidden', float:'right', position:'relative'}}/>
                     </Container>
                     </div>
                     </Jumbotron>
-                    <img src={pic1} alt="whatever"></img>
+                    <img src={pic1} alt="at amrita clg" style={{ paddingLeft:'0%', width:'100%', height:'90vh'}}></img>
                     <hr></hr>
                     <Jumbotron style={{paddingTop:'30px', backgroundColor:'transparent', width:'100%', height:'450px'}}>
                     
-                    <Container fluid={true} style={{maxWidth:'50%', float:'right', height:'250px'}} >
+                    <Container fluid={true} style={{maxWidth:'50%', float:'right', height:'250px',fontWeight:'bold'}} >
                     <Table style={{float:'right'}}>
                     <Row>
                         <Col lg={3} >College Name</Col>
@@ -54,23 +54,23 @@ export default class About extends React.Component {
                      </Row>
                      </Table>
                     </Container>
-                    <Container style={{maxWidth:'50%',float:'left'}}>
+                    <Container style={{maxWidth:'50%',float:'left', fontWeight:'bold'}}>
                         <img src={narayana} alt="nothing" style={{overflow:'hidden', float:'left'}}/>
                     </Container>
                 </Jumbotron>
-                <img src={nrynaprize} alt="academic exccellence award" />
+                <img src={nrynaprize} alt="academic exccellence award" style={{ paddingLeft:'0%', width:'100%', height:'90vh'}} />
                 <hr></hr>
                 <Jumbotron style={{backgroundColor:'transparent', paddingBottom:'20%', height:'450px', width:'100%'}}>
             
                     <div>
-                    <Container fluid={true} style={{maxWidth:'50%', float:'left', height:'250px'}} >
+                    <Container fluid={true} style={{maxWidth:'50%', float:'left', height:'200px',fontWeight:'bold'}} >
                     <Row>
                         <Col lg={3} >School Name</Col>
                         <Col lg={6} >St. Rita High School</Col>
                      </Row>
                      <Row>
                      <Col lg={3}>Study</Col>
-                        <Col lg={6}>1st to 8th Std</Col>
+                        <Col lg={6}>1st to 8th Std.</Col>
                      </Row>
                      <Row>
                      <Col lg={3}>Period</Col>
@@ -84,7 +84,7 @@ export default class About extends React.Component {
 
                     </div>
                     </Jumbotron>
-                    <img src={strita} alt="st rita award" style={{ paddingLeft:'50vh', width:'75%', height:'80vh'}} />
+                    <img src={strita} alt="st rita award" style={{ paddingLeft:'25%', width:'75%', height:'80vh'}} />
                 
             
             </div>

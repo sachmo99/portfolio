@@ -11,10 +11,10 @@ export default class Projects extends React.Component {
     render() {
         return(
             <div style={{backgroundImage:`url(${success})`, backgroundSize:'cover'}}>
-                <Container fluid={true} style={{width:'30%'}}>
+                <Container fluid={true} style={{width:'60%'}}>
                     <h2>Digital Badges</h2>
                     <iframe src="https://api.badgr.io/public/assertions/FwKLvMiuQsS_4jxMg2aScg?embedVersion=1&amp;embedWidth=330&amp;embedHeight=186" title="Badge: Cisco Cybersecurity Essentials" style={{width: '330px', height: '186px',border:'0px',alignContent:'center' }}></iframe>
-
+                    <iframe src="https://www.youracclaim.com/badges/bd2422a7-20ed-489f-8f8b-d284c012a343/public_url" title="Badge: Earners of Cisco CCNA - Implementing and Administering Cisco Solutions (CCNA) " style={{width: '330px', height: '186px',border:'0px',alignContent:'left' }}></iframe>
                     
                 </Container>
                 <Container fluid={true} style={{width:'100%'}}>
@@ -35,13 +35,13 @@ export default class Projects extends React.Component {
   <Card bg="danger">
     
     <Card.Body>
-      <Card.Title>Research Paper on Object Detection algorithms with mobile platform Compatibility</Card.Title>
+      <Card.Title>Covid India Volunteer Software - Safe Passage</Card.Title>
       <Card.Text>
-        A survey paper on various DL algorithms which are copatible on porting to android platform using tensorflow
+        A Safe Passage Android and Python Django RF project to facilitate pass system for emergency travels - group volunteer project.
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Work in Progress</small>
+      <small className="text-muted">Submitted to myIndia GOVT hack</small>
     </Card.Footer>
   </Card>
   <Card bg="warning">
