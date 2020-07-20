@@ -12,7 +12,7 @@ import ContactMe from './components/contactme';
 import Projects from './components/projects.jsx';
 import ccna_200 from './ccna_200.png';
 import ccna from './ccna.png';
-import resume from './T_sai_chandra_mouli - Resume .pdf';
+import resume from './T_sai_chandra_mouli_latest.pdf';
 const routes = (
     <HashRouter basename="/">
         <Switch>
