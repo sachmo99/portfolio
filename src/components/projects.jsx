@@ -76,7 +76,7 @@ export default class Projects extends React.Component {
     <ListGroup.Item variant="primary">Academic Excellence Award in 12th Std</ListGroup.Item>
     <ListGroup.Item variant="warning">Department Topper in Semester 1</ListGroup.Item>
     <ListGroup.Item variant="secondary">Runner-up in SLAC Honeywell Hackathon 2019- team Exploit_It</ListGroup.Item>
-    <ListGroup.Item variant="success">Certified in CCNA, Fundamentals of IoT, Cybersecurity, Linux Essentials, Cisco DevNet, Python by NetAcad</ListGroup.Item>
+    <ListGroup.Item variant="success">Certified in CCNA, Google Cloud - Core Fundamentals by Coursera, Cybersecurity Essentials, Cisco_DevNet by NetAcad</ListGroup.Item>
   </ListGroup>
 </Card>
 </div>
